@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB1468AE264E9BBB0031B999 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1468AD264E9BBB0031B999 /* AppDelegate.swift */; };
+		EB1468B0264E9BBB0031B999 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1468AF264E9BBB0031B999 /* SceneDelegate.swift */; };
+		EB1468B2264E9BBB0031B999 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1468B1264E9BBB0031B999 /* ViewController.swift */; };
+		EB1468B5264E9BBB0031B999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB1468B3264E9BBB0031B999 /* Main.storyboard */; };
+		EB1468B7264E9BC10031B999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1468B6264E9BC10031B999 /* Assets.xcassets */; };
+		EB1468BA264E9BC10031B999 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB1468B8264E9BC10031B999 /* LaunchScreen.storyboard */; };
+		EB1468C5264E9BC20031B999 /* GuessNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1468C4264E9BC20031B999 /* GuessNumberTests.swift */; };
+		EB1468D0264E9BC20031B999 /* GuessNumberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1468CF264E9BC20031B999 /* GuessNumberUITests.swift */; };
+		EB1E5B942650B3EE005E9C2B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1E5B932650B3EE005E9C2B /* ResultViewController.swift */; };
+		EBEE303D264F8AE30022AA68 /* GuessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE303C264F8AE30022AA68 /* GuessViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB1468C1264E9BC20031B999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB1468A2264E9BBB0031B999 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB1468A9264E9BBB0031B999;
+			remoteInfo = GuessNumber;
+		};
+		EB1468CC264E9BC20031B999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB1468A2264E9BBB0031B999 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB1468A9264E9BBB0031B999;
+			remoteInfo = GuessNumber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB1468AA264E9BBB0031B999 /* GuessNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB1468AD264E9BBB0031B999 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB1468AF264E9BBB0031B999 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EB1468B1264E9BBB0031B999 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB1468B4264E9BBB0031B999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB1468B6264E9BC10031B999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB1468B9264E9BC10031B999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB1468BB264E9BC10031B999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB1468C0264E9BC20031B999 /* GuessNumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessNumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB1468C4264E9BC20031B999 /* GuessNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberTests.swift; sourceTree = "<group>"; };
+		EB1468C6264E9BC20031B999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB1468CB264E9BC20031B999 /* GuessNumberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessNumberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB1468CF264E9BC20031B999 /* GuessNumberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberUITests.swift; sourceTree = "<group>"; };
+		EB1468D1264E9BC20031B999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB1E5B932650B3EE005E9C2B /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		EBEE303C264F8AE30022AA68 /* GuessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB1468A7264E9BBB0031B999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1468BD264E9BC20031B999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1468C8264E9BC20031B999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB1468A1264E9BBB0031B999 = {
+			isa = PBXGroup;
+			children = (
+				EB1468AC264E9BBB0031B999 /* GuessNumber */,
+				EB1468C3264E9BC20031B999 /* GuessNumberTests */,
+				EB1468CE264E9BC20031B999 /* GuessNumberUITests */,
+				EB1468AB264E9BBB0031B999 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB1468AB264E9BBB0031B999 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB1468AA264E9BBB0031B999 /* GuessNumber.app */,
+				EB1468C0264E9BC20031B999 /* GuessNumberTests.xctest */,
+				EB1468CB264E9BC20031B999 /* GuessNumberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB1468AC264E9BBB0031B999 /* GuessNumber */ = {
+			isa = PBXGroup;
+			children = (
+				EB1468AD264E9BBB0031B999 /* AppDelegate.swift */,
+				EB1468AF264E9BBB0031B999 /* SceneDelegate.swift */,
+				EB1468B1264E9BBB0031B999 /* ViewController.swift */,
+				EB1468B3264E9BBB0031B999 /* Main.storyboard */,
+				EB1468B6264E9BC10031B999 /* Assets.xcassets */,
+				EB1468B8264E9BC10031B999 /* LaunchScreen.storyboard */,
+				EB1468BB264E9BC10031B999 /* Info.plist */,
+				EBEE303C264F8AE30022AA68 /* GuessViewController.swift */,
+				EB1E5B932650B3EE005E9C2B /* ResultViewController.swift */,
+			);
+			path = GuessNumber;
+			sourceTree = "<group>";
+		};
+		EB1468C3264E9BC20031B999 /* GuessNumberTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB1468C4264E9BC20031B999 /* GuessNumberTests.swift */,
+				EB1468C6264E9BC20031B999 /* Info.plist */,
+			);
+			path = GuessNumberTests;
+			sourceTree = "<group>";
+		};
+		EB1468CE264E9BC20031B999 /* GuessNumberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB1468CF264E9BC20031B999 /* GuessNumberUITests.swift */,
+				EB1468D1264E9BC20031B999 /* Info.plist */,
+			);
+			path = GuessNumberUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB1468A9264E9BBB0031B999 /* GuessNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB1468D4264E9BC20031B999 /* Build configuration list for PBXNativeTarget "GuessNumber" */;
+			buildPhases = (
+				EB1468A6264E9BBB0031B999 /* Sources */,
+				EB1468A7264E9BBB0031B999 /* Frameworks */,
+				EB1468A8264E9BBB0031B999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuessNumber;
+			productName = GuessNumber;
+			productReference = EB1468AA264E9BBB0031B999 /* GuessNumber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB1468BF264E9BC20031B999 /* GuessNumberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB1468D7264E9BC20031B999 /* Build configuration list for PBXNativeTarget "GuessNumberTests" */;
+			buildPhases = (
+				EB1468BC264E9BC20031B999 /* Sources */,
+				EB1468BD264E9BC20031B999 /* Frameworks */,
+				EB1468BE264E9BC20031B999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB1468C2264E9BC20031B999 /* PBXTargetDependency */,
+			);
+			name = GuessNumberTests;
+			productName = GuessNumberTests;
+			productReference = EB1468C0264E9BC20031B999 /* GuessNumberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB1468CA264E9BC20031B999 /* GuessNumberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB1468DA264E9BC20031B999 /* Build configuration list for PBXNativeTarget "GuessNumberUITests" */;
+			buildPhases = (
+				EB1468C7264E9BC20031B999 /* Sources */,
+				EB1468C8264E9BC20031B999 /* Frameworks */,
+				EB1468C9264E9BC20031B999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB1468CD264E9BC20031B999 /* PBXTargetDependency */,
+			);
+			name = GuessNumberUITests;
+			productName = GuessNumberUITests;
+			productReference = EB1468CB264E9BC20031B999 /* GuessNumberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB1468A2264E9BBB0031B999 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EB1468A9264E9BBB0031B999 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EB1468BF264E9BC20031B999 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EB1468A9264E9BBB0031B999;
+					};
+					EB1468CA264E9BC20031B999 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EB1468A9264E9BBB0031B999;
+					};
+				};
+			};
+			buildConfigurationList = EB1468A5264E9BBB0031B999 /* Build configuration list for PBXProject "GuessNumber" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB1468A1264E9BBB0031B999;
+			productRefGroup = EB1468AB264E9BBB0031B999 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB1468A9264E9BBB0031B999 /* GuessNumber */,
+				EB1468BF264E9BC20031B999 /* GuessNumberTests */,
+				EB1468CA264E9BC20031B999 /* GuessNumberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB1468A8264E9BBB0031B999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1468BA264E9BC10031B999 /* LaunchScreen.storyboard in Resources */,
+				EB1468B7264E9BC10031B999 /* Assets.xcassets in Resources */,
+				EB1468B5264E9BBB0031B999 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1468BE264E9BC20031B999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1468C9264E9BC20031B999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB1468A6264E9BBB0031B999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1E5B942650B3EE005E9C2B /* ResultViewController.swift in Sources */,
+				EB1468B2264E9BBB0031B999 /* ViewController.swift in Sources */,
+				EB1468AE264E9BBB0031B999 /* AppDelegate.swift in Sources */,
+				EBEE303D264F8AE30022AA68 /* GuessViewController.swift in Sources */,
+				EB1468B0264E9BBB0031B999 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1468BC264E9BC20031B999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1468C5264E9BC20031B999 /* GuessNumberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1468C7264E9BC20031B999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1468D0264E9BC20031B999 /* GuessNumberUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB1468C2264E9BC20031B999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB1468A9264E9BBB0031B999 /* GuessNumber */;
+			targetProxy = EB1468C1264E9BC20031B999 /* PBXContainerItemProxy */;
+		};
+		EB1468CD264E9BC20031B999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB1468A9264E9BBB0031B999 /* GuessNumber */;
+			targetProxy = EB1468CC264E9BC20031B999 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB1468B3264E9BBB0031B999 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB1468B4264E9BBB0031B999 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB1468B8264E9BC10031B999 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB1468B9264E9BC10031B999 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB1468D2264E9BC20031B999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB1468D3264E9BC20031B999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB1468D5264E9BC20031B999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GuessNumber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.GuessNumber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB1468D6264E9BC20031B999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GuessNumber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.GuessNumber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB1468D8264E9BC20031B999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GuessNumberTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.GuessNumberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessNumber.app/GuessNumber";
+			};
+			name = Debug;
+		};
+		EB1468D9264E9BC20031B999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GuessNumberTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.GuessNumberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessNumber.app/GuessNumber";
+			};
+			name = Release;
+		};
+		EB1468DB264E9BC20031B999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GuessNumberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.GuessNumberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuessNumber;
+			};
+			name = Debug;
+		};
+		EB1468DC264E9BC20031B999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GuessNumberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.GuessNumberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuessNumber;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB1468A5264E9BBB0031B999 /* Build configuration list for PBXProject "GuessNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB1468D2264E9BC20031B999 /* Debug */,
+				EB1468D3264E9BC20031B999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB1468D4264E9BC20031B999 /* Build configuration list for PBXNativeTarget "GuessNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB1468D5264E9BC20031B999 /* Debug */,
+				EB1468D6264E9BC20031B999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB1468D7264E9BC20031B999 /* Build configuration list for PBXNativeTarget "GuessNumberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB1468D8264E9BC20031B999 /* Debug */,
+				EB1468D9264E9BC20031B999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB1468DA264E9BC20031B999 /* Build configuration list for PBXNativeTarget "GuessNumberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB1468DB264E9BC20031B999 /* Debug */,
+				EB1468DC264E9BC20031B999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB1468A2264E9BBB0031B999 /* Project object */;
+}
